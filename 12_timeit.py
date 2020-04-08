@@ -7,4 +7,4 @@ def zmien_mi_nazwe_na_lepsza():
                 suma += i*j
     return(suma)
 
-print(timeit.timeit(zmien_mi_nazwe_na_lepsza()))
+print(timeit.timeit(zmien_mi_nazwe_na_lepsza())) # NIE DZIAŁA !!!!!!
