@@ -6,4 +6,7 @@ D = {1: 'Ala', 2: 'ma', 3: 'kota'}
 for key in D:       # dla kolejnego klucza w słowniku D
     print(D[key])   # wydrukuj wartość przechowywaną pod tym kluczem
 
-# Odpowiedź: nie wiadomo! Słowniki nie trzymają kolejności!
+# Odpowiedź: to zalezy od wersji Pythona
+# Pythony do 3.5 - słowniki nie gwarantują kolejności
+# Python     3.6 - słowniki powinny zachować kolejność
+# Python  od 3.7 - słowniki gwarantują kolejność
