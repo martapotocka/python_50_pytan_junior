@@ -1,4 +1,4 @@
-# Pytanie: czym różnią się od siebie operatory is i == ?
+# Pytanie 21: czym różnią się od siebie operatory: == i is ?
 
 print(1 == 1)
 print(1 == 10 - 9)   # == porównuje WARTOŚCI
@@ -8,14 +8,13 @@ print(1 is 1)
 print(1 is 10 - 9)   # is porównuje czy lewa strona JEST TYM SAMYM co prawa
 print(1 is True)     # id(1) == id(True)
 
-print(id(1))
-print(id(True))
+print(id(1), id(True)) #zobaczysz inne id niz ja! Zmieni się przy kazdym uruchomieniu
 
 A = [1,2,3]
 B = [1,2,3]
 print(A == B)
 print(A is B)
-print(id(A), id(B)) #zobaczysz inne id niz ja! Zmieni się przy kazdym uruchomieniu
+print(id(A), id(B))
 
 a = 'kotek'
 b = 'kotek'

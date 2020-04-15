@@ -1,3 +1,4 @@
+# Pytanie 22 - jaka jest wartość logiczna poniższych wyrażeń?
 # False is False is False
 
 print(False is False) # True
