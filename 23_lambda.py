@@ -1,9 +1,10 @@
 # Pytanie 22 - czym jest lambda?
 # Napisz przykładowy kod wykorzystujący lambdę.
 
-D = [('Anna',82), ('Robert',33), ('Michał',40), ('Feliks',56)]
+D = [('Anna',82), ('Robert',33), ('Artur',40), ('Feliks',56)]
 posortowane = sorted(D, key = lambda x: x[1])
 print(posortowane)
+
 
 
 # lambdy nazywane sa tez funkcjami anonimowymi, poniewaz nie posiadaja nazwy
