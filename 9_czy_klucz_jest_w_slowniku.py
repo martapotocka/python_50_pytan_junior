@@ -9,4 +9,4 @@ for litera in x:         # dla kolejnej litery w stringu x
         D[litera] = 1    # stwórz nowy klucz 'litera' w D i przypisz mu wartość 1
     else:                # w przeciwnym wypadku (klucz już istnieje)
         D[litera] += 1   # zwiększ wartość pod kluczem o 1 (D[litera] += 1 to zapis równoważny do D[litera] = D[litera] + 1)
-print(D)
+print(D)                 # wydrukuj słownik D
