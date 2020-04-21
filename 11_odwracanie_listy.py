@@ -1,18 +1,24 @@
-# Pytanie 11 - na podstawie listy A stworz listę A_odwrocone
-# zawierającą elementy listy A w odwroconej kolejnosci
+# Pytanie 11 - na podstawie listy jezyki stworz listę jezyki_odwrocone
+# zawierającą elementy listy jezyki w odwroconej kolejnosci
 
-A = ['Python', 'Java', 'C#']
+jezyki = ['Python', 'Java', 'C#', 'Ruby']
 
-# Metoda 1
-# jezyki_odwrocone = jezyki.reverse()
+# 1
+# jezyki.reverse()
+# jezyki_odwrocone = jezyki
+# print(jezyki_odwrocone)
 
-# Metoda 2
+# 2
+# jezyki_odwrocone = list(reversed(jezyki))
+# print(jezyki_odwrocone)
+# print(jezyki)
+
+# 3
 # jezyki_odwrocone = jezyki[::-1]
+# print(jezyki_odwrocone)
 
-# Metoda 3
-# jezyki_odwrocone = []
-# for jezyk in jezyki:
-#     jezyki_odwrocone.insert(0,jezyk)
-#     print(jezyki_odwrocone)
-
+# 4
+jezyki_odwrocone = []
+for jezyk in jezyki:
+    jezyki_odwrocone.insert(0,jezyk)
 print(jezyki_odwrocone)

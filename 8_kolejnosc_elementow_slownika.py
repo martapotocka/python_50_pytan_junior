@@ -2,11 +2,10 @@
 
 D = {1: 'Ala', 2: 'ma', 3: 'kota'}
 
-# Pętla for iteruje zawsze po kluczach słownika
-for key in D:       # dla kolejnego klucza w słowniku D
-    print(D[key])   # wydrukuj wartość przechowywaną pod tym kluczem
+for key in D:
+    print(D[key])
 
-# Odpowiedź: to zalezy od wersji Pythona
-# Pythony do 3.5 - słowniki nie gwarantują kolejności
-# Python     3.6 - słowniki powinny zachować kolejność
-# Python  od 3.7 - słowniki gwarantują kolejność
+# 2 - 3.5 - słownik nie trzyma kolejności
+# 3.6 - trzyma kolejność
+# 3.7 - słownik trzyma kolejność (gwarantowane)
+# OrderedDict
